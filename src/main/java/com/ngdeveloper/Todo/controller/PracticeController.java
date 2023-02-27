@@ -21,6 +21,7 @@ public class PracticeController {
 	@GetMapping("/getAllPracticeList")
 	public List<PracticeDto> getAllPracticeList()
 	{
+		// get all the practise list
 		return praticreService.getAll() ;
 		
 	}
