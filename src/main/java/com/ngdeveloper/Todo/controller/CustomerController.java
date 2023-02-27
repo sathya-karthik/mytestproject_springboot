@@ -21,6 +21,8 @@ private CustomerService cs;
 public void setDataInDB()
 {
 	try {
+		// save customer data
+
 		cs.saveCustomerData();
 	} catch (IOException e) {
 		// TODO Auto-generated catch block
